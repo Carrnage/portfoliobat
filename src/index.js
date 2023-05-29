@@ -8,7 +8,6 @@ import Home from './pages/Home'
 import Layout from './pages/Layout'
 import NoPage from './pages/NoPage'
 import Work from './pages/Work'
-import { useTheme } from '@nextui-org/react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

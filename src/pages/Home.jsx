@@ -1,4 +1,4 @@
-import { Container, Card, Row, Text, Image, Col } from "@nextui-org/react";
+import { Container, Card, Row, Text, } from "@nextui-org/react";
 import compu from "../compu.jpeg";
 
 export default function Home() {
