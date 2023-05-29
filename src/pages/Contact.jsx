@@ -1,5 +1,5 @@
 import { Container, Card, Row, Text, Textarea, Button, Grid } from "@nextui-org/react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Contact() {
     const [name, setName] = useState ("Name")
