@@ -1,6 +1,11 @@
 import { Container, Card, Row, Text, Spacer, Col, Image} from "@nextui-org/react";
+import { useEffect } from "react";
 
 export default function Layout() {
+  useEffect(() => {
+    document.title = 'Portfolio - About'
+  })
+
   return (
     <Container lg >
       <Spacer x={3}/>

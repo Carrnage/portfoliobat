@@ -5,12 +5,16 @@ export default function Contact() {
     const [name, setName] = useState ("Name")
     const [email, setEmail] = useState ("Email")
     const [message, setMessage] = useState ("Name")
-
+//Currently this just outputs to the console log
 function onSubmit() {
   console.log(name)
   console.log(email)
   console.log(message)
 }
+useEffect(() => {
+  document.title = 'Portfolio - Contact'
+})
+
   return (
     <Container lg>
       <Card >

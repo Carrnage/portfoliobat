@@ -2,7 +2,7 @@ import { Container, Card, Row, Text, } from "@nextui-org/react";
 import React, {useEffect} from "react";
 import { UserCard } from "react-ui-cards";
 
-export default function Home() {
+export default function Work() {
   useEffect(() => {
     document.title = 'Portfolio - My work'
   })
