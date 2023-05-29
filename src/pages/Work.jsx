@@ -1,6 +1,5 @@
-import { Container, Card, Row, Text, Link } from "@nextui-org/react";
+import { Container, Card, Row, Text, } from "@nextui-org/react";
 import React, {useEffect} from "react";
-import { User } from "react-iconly";
 import { UserCard } from "react-ui-cards";
 
 export default function Home() {
@@ -8,7 +7,7 @@ export default function Home() {
     document.title = 'Portfolio - My work'
   })
   return (
-    <Container fluid>
+    <Container lg>
       <Card >
         <Card.Header>
           <Row justify="center" align="center">
